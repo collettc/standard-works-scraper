@@ -48,7 +48,7 @@ def scrape_chapter(
     os.makedirs(book_path, exist_ok=True)
     
     # Save file
-    file_path = os.path.join(base_path, f'{book_name} {chapter}.md')
+    file_path = os.path.join(book_path, f'{book_name} {chapter}.md')
     with open(file_path, 'w', encoding='utf-8') as f:
         f.write(f'#  {book_name} {chapter}\n\n{chapter_text}')
 
