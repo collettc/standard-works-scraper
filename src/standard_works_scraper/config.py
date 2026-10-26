@@ -18,7 +18,7 @@ GC_DATA_DIR = EXPORT_DIR / 'gc'
 
 
 # Base URLs
-BOFM_BASE_URL = 'https://www.churchofjesuschrist.org/study/scriptures/BOFM'
+BOFM_BASE_URL = 'https://www.churchofjesuschrist.org/study/scriptures/bofm'
 OT_BASE_URL = 'https://www.churchofjesuschrist.org/study/scriptures/ot'
 NT_BASE_URL = 'https://www.churchofjesuschrist.org/study/scriptures/nt' 
 DC_BASE_URL = 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament'
