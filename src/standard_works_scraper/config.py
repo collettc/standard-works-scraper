@@ -120,6 +120,10 @@ SECTIONS_OF_DC = {
     'dc': 138
 }
 
+BOOKS_OF_DC = {
+    'dc': 'Doctring and Covenants'
+}
+
 BOOKS_OF_PGP = {
     "moses": "Moses",
     "abr": "Abraham",
@@ -225,5 +229,11 @@ PGP_CHAPTER_COUNT = {
     "js-m": 1,
     "js-h": 1,
     "a-of-f": 1,
+}
+
+# General Conference variables
+
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0'
 }
 
