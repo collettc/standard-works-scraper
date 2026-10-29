@@ -22,6 +22,12 @@ def main():
     year = 2026
     month = 10
     GC_BASE_URL = f'https://www.churchofjesuschrist.org/study/general-conference/{year}/{month}?lang=eng'
+    if month == 10:
+        month_label = 'October General Conference'
+    elif month == 4:
+        month_label = 'April General Conference'
+
+    output_path = f'{GC_DATA_DIR}/{year} {month_label}'
 
     print(f"Fetching {year}-{month} General Conference...")
     conference_date = get_conference_data(year, month)
@@ -30,7 +36,7 @@ def main():
     print(f"Found {len(talk_links)} talks.")
 
     for link in talk_links:
-        scrape_talk(link, conference_date, HEADERS, GC_DATA_DIR)
+        scrape_talk(link, conference_date, HEADERS, output_path)
 
     print("Download complete.")
 
