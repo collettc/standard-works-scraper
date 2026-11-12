@@ -16,8 +16,9 @@ from standard_works_scraper.scrape import (
 )
 
 def main():
-    year = 2026
-    month = 4  # Keep as integer 4
+    year = 2017
+    # month = 4  # Keep as integer 4
+    month = 10
     
     # Use :02d inside the f-string to pad with a leading zero in the URL
     GC_BASE_URL = f'https://www.churchofjesuschrist.org/study/general-conference/{year}/{month:02d}?lang=eng'
