@@ -14,6 +14,8 @@ OT_DATA_DIR = EXPORT_DIR / 'ot'
 NT_DATA_DIR = EXPORT_DIR / 'nt'
 DC_DATA_DIR = EXPORT_DIR / 'dc'
 PGP_DATA_DIR = EXPORT_DIR / 'pgp'
+CFM_YEAR = 2027
+CFM_DATA_DIR = EXPORT_DIR / 'cfm' / str(CFM_YEAR)
 GC_DATA_DIR = EXPORT_DIR / 'gc'
 
 
@@ -23,6 +25,14 @@ OT_BASE_URL = 'https://www.churchofjesuschrist.org/study/scriptures/ot'
 NT_BASE_URL = 'https://www.churchofjesuschrist.org/study/scriptures/nt' 
 DC_BASE_URL = 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament'
 PGP_BASE_URL = 'https://www.churchofjesuschrist.org/study/scriptures/pgp'
+CFM_MANUAL_URL = (
+    'https://www.churchofjesuschrist.org/study/manual/'
+    'come-follow-me-for-home-and-church-old-testament-2026?lang=eng'
+)
+
+CFM_MANUAL_PATH = '/study/manual/come-follow-me-for-home-and-church-old-testament-2026'
+CFM_CONTENTS_URL = CFM_MANUAL_URL
+CFM_CURRICULUM = 'Come, Follow Me—Old Testament 2026'
 
 
 # Book reference
